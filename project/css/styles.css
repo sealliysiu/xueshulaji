@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+    /* 在屏幕宽度大于等于768像素时应用以下样式 */
+    .news-input {
+        width: 50%; /* 将宽度设置为50% */
+    }
+}
+body ::before{
+    display: block;
+    content: " ";
+    height: 20px;
+}
